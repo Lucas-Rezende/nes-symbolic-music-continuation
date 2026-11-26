@@ -4,6 +4,8 @@ Projeto de continuação musical com o dataset [NES-MDB](https://github.com/chri
 
 ## Estrutura de pastas
 
+OBS: Os dados do dataset devem ser instalados através de [NES-MDB](https://github.com/chrisdonahue/nesmdb) e organizados tal qual na estrutura relacionada a `data/raw/` abaixo
+
 - `data/`: reúne o dataset MIDI original e os dados processados para os modelos.
 - `data/raw/`: guarda o arquivo NES-MDB baixado e as músicas MIDI extraídas.
 - `data/processed/`: contém as sequências tokenizadas, o vocabulário, os índices e a matriz de transições do Markov.
